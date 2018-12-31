@@ -5,7 +5,8 @@ This tool can be used to verify if all photos of a memory card are copied to a f
 on a hard drive.
 
 example usage:
-    iscardcopied --disk=E: --card=G:
+
+    `iscardcopied --disk=E: --card=G:`
 
 will check if all videos and images on memory card in drive G: are somewhere on E:
 
@@ -15,7 +16,8 @@ It will create a `uncopied.html` file containing links to all files not copied,
 if option `--copy` is used, files can be copied at same time.
 
 example usage:
-    iscardcopied --disk=E: --card=G:  --copy=E:\MISC
+
+    `iscardcopied --disk=E: --card=G:  --copy=E:\MISC`
 
 After running this command it should be safe to format the card.
 
